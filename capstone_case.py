@@ -43,7 +43,6 @@ calculation_input = {'fontSize': 12,
 DB_FILENAME = 'investment.csv'
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-application = app.server
 
 
 app.layout = html.Div([
@@ -647,4 +646,4 @@ def action(
 
 
 if __name__ == '__main__':
-    application.run(port=8080)
+    app.run_server()
