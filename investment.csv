@@ -1,0 +1,6 @@
+scenario_name,total_hits,conversion_rate,revenue_per_purchase,purchase_per_converted_user,sampling_cost,potential_revenue
+Scenario 1,1000000,60,50,2,25000000,50
+Scenario 2,2000000,60,50,2,25000000,50
+Scenario 3,3500000,60,50,2,25000000,50
+Scenario 4,4000000,60,50,2,25000000,50
+Scenario 5,4500000,60,50,2,25000000,50
